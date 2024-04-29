@@ -1,0 +1,3 @@
+MONGODB_URI='mongodb+srv://saharsh:Fy1iAdVORGL74oNK@testcluster.wdkzc4r.mongodb.net/?retryWrites=true&w=majority'
+NEXTAUTH_URL='http://localhost:3000/login'
+NEXTAUTH_SECRET='Wg1BvW87qB7CVWPRxy5ifPS8Z07lZV6cG/qzmUs3Syk='

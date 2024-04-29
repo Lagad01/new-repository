@@ -1,0 +1,114 @@
+
+
+.document-container {
+    width: 100%;
+    max-width: 1360px;
+    margin-left: 5px;
+    margin-top: -20px;
+  }
+  
+  .custom-tabs-document {
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    margin-left:-1.5%;
+  }
+  
+  .custom-tab-document {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    color: #555;
+    transition: color 0.3s ease;
+    margin-left: -1.3% !important;
+  }
+  
+  .custom-tab-document.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    background-color: white !important;
+  }
+  
+  .tab-content-document {
+    /* padding: 20px; */
+    margin-top: 1%;
+    /* border-top: 1px solid #ccc; */
+    margin-left: -7px!important;
+  }
+  
+  .tab-pane-document {
+    display: none;
+  } 
+  
+  .tab-pane-document.active {
+    display: block;
+  } 
+  
+  
+  
+  .border-box {
+    border: 1px solid #9697c4;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9e4;
+  }
+  
+  
+  .column {
+    flex: 1;
+  }
+  
+  
+  .custom-tab-document.active {
+    background-color: #f0f0f0; 
+  }
+  
+  .reports-dropdown {
+    position: relative; 
+  }
+  
+  .options-container1 {
+    position: absolute;
+    top: calc(105% + 5px); /* Position below the border line of tabs */
+    /* Adjust width or other properties as needed */
+    /* width: <your-width>; */
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 5px 5px;
+  height:40px;
+    display: flex;
+    /* z-index: 999; */
+  } 
+  
+  .option1 {
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    /* margin-bottom: 10px; */
+    background-color: #f0f0f0;
+    /* Ensure options don't wrap onto multiple lines */
+    flex-wrap: nowrap;
+    width:150px;
+   
+    overflow: hidden;
+    /* text-overflow:ellipsis; */
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+  
+  .option1:hover {
+    background-color: #e0e0e0;
+  } 
+  
+  .option1:last-child {
+    margin-right: 0;
+  }
+  
+  

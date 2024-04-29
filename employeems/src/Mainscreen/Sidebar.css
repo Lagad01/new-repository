@@ -1,0 +1,213 @@
+.active-link {
+    color: #17a2b8;
+  }
+  .dboardcontainer{
+  display: flex;
+  /* height:100vh; */
+  }
+  .hrexcelimg{
+    height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     margin-left:-8px;
+     margin-top: -18px;
+     
+  }
+  .hrexcelname{
+    /* top: -10px; */
+    margin-top: -25px;
+    margin-left: 20%;
+  
+  }
+  .hide-text {
+    display: none;
+  }
+  
+  .link-text {
+    display: block;
+    margin-top:-18px;
+    margin-left: 30px;
+    /* transition: margin-left 0.3s ease; */
+  }
+  
+  .link-text:focus {
+    color:#007bff;
+  }
+  
+  .nav-link {
+    /* display: flex; */
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: -8px;
+    color: #000;
+    text-decoration: none;
+    margin-left:3px;
+    transition: color 0.3s ease-in-out;
+    /* position: relative; */
+  /* position: absolute; */
+  }
+  
+  .dboard{
+    font-size: 18px;
+    margin-top: -8px;
+    margin-left: 20px;
+    /* margin-right: 2px; */
+  }
+  
+  
+  .nav-link:hover {
+    color: #007bff!important;
+  }
+  
+  .nav-link:focus {
+    color: #007bff !important;
+    background-color: rgb(247, 242, 242);
+  }
+  
+  
+  .nav-link svg {
+    /* position: absolute; */
+    left: 10px;
+    top: 50%;
+    transform: translateY(11%);
+    margin-right: 8px;
+  }
+  
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .btnlight {
+     background-color: #008CBA;
+    color: #fff;
+    border: none;
+    width: 65%;
+    padding: 9px 5px;
+    padding-left: 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: -41px;
+    font-size: 14px; 
+    margin-top: 14%;
+    border-radius: 5px;
+   
+    /* width:50%; */
+                                /* border: none;
+                                color: white;
+                                padding: 11px 20px;
+                                text-align: center;
+                                text-decoration: none;
+                                /* display: inline-block; */
+                               
+                                /* margin-left: 25%; */
+  
+  }
+  .btndark{
+     background-color: rgb(243, 237, 237);
+    color:black;
+    border: none;
+    width: 65%;
+    font-size: 14px;
+    border-radius: 5px;
+  transform: translateY(-97%);
+    padding:9px 5px;
+    padding-left: 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;  
+    margin-left: 44%;  
+    /* margin-top: -115% !important; */
+   
+    /* width:50px; */
+                               
+  }
+  .btndark:hover {
+    background-color: #008CBA;
+    color:white;
+  }
+  
+  
+  .btnlight:hover {
+    background-color: #008CBA;
+  }
+  .toggle-btn{
+    margin-left: 95%;
+    transform: translateZ(10%);
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-bottom: -5%; */
+  
+   
+  
+   
+    
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .lighticon{
+  
+    margin-right: 5px;
+    color:white;
+    
+  }
+  .darkicon{
+    
+    margin-right: 5px;
+  }
+  
+  
+  
+  .active1{
+  color:blueviolet !important; 
+  /* position: relative; */
+  background-color: rgb(231, 227, 227);
+  border-left: 2px solid blueviolet;
+  padding: -10px;
+  /* width: 30px !important; */
+  /* height:40px; */
+  margin-left: 5px;
+  }
+  
+  .sidebar {
+    /* Remove width and padding properties */
+    /* width: 255px; Set a fixed width */
+    height: 100%; /* Set height to fill the entire screen */
+    position: fixed; /* Fixed position */
+    top: 0; /* Position from the top */
+    left: 0; /* Position from the left */
+    padding: 20px; /* Move padding to individual elements inside sidebar */
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add shadow */
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  
+  
+  
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .sidebar{
+      flex: none;
+      /* width: 160% !important; */
+      /* max-height: 1000px !important; */
+      margin-top: 2px !important;
+      width: 80px; /* Set a fixed width */
+    height: 800px;
+    }
+    .dboardcontainer{
+     height:100vh !important; 
+    }
+  }
+  
+  
